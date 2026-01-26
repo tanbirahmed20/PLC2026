@@ -1,13 +1,13 @@
 module Intro2 where
 -- test Comment
 -- String algebra:
-name = "Alice"
+name = "Tanbir"
 -- "if" has a special syntax but otherwise a typed version of Lisp's "if":
 name2 = if name /= "" then name else "no name"
 
 pname3 = print "Bob"
 
-myprogram = print (1 + m)  -- compiler error: m undefined
+myprogram = print (200 + m)  -- compiler error: m undefined
 m = 1                      -- unless this line is also present
 
 -- sequencing several imperative programs:
